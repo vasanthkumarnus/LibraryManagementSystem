@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SA43Team05B</RootNamespace>
     <AssemblyName>SA43Team05B</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -110,6 +111,12 @@
     <Compile Include="View\Test.Designer.cs">
       <DependentUpon>Test.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Testcynthia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Testcynthia.Designer.cs">
+      <DependentUpon>Testcynthia.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\testqwk.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +134,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EntityDeploy Include="Model\LMSModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
