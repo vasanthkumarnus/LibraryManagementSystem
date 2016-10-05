@@ -59,5 +59,15 @@ namespace SA43Team05B.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Icon_user__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Icon-user (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SA43Team05B.View;
 
 namespace SA43Team05B
 {
@@ -16,7 +17,8 @@ namespace SA43Team05B
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainMenu());
+            //Application.Run(new MainMenu());
+            Application.Run(new LoginForm());
         }
     }
 }

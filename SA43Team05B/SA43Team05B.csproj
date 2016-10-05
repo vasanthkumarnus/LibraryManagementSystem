@@ -58,6 +58,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\Book.cs" />
+    <Compile Include="Controller\Login.cs" />
+    <Compile Include="Controller\Member.cs" />
+    <Compile Include="Controller\Transaction.cs" />
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,13 +169,12 @@
       <DependentUpon>LMSModel.edmx</DependentUpon>
       <LastGenOutput>LMSModel.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\Icon-user %282%29.png" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controller\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
