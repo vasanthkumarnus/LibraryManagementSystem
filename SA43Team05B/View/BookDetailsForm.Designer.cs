@@ -43,8 +43,8 @@
             this.txtTotalStock = new System.Windows.Forms.TextBox();
             this.txtNumberLeft = new System.Windows.Forms.TextBox();
             this.txtShelfNumber = new System.Windows.Forms.TextBox();
-            this.btnBookUpdate = new System.Windows.Forms.Button();
-            this.btnBookRemove = new System.Windows.Forms.Button();
+            this.btnUpdateBook = new System.Windows.Forms.Button();
+            this.btnRemoveBook = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblBookTitle
@@ -169,30 +169,30 @@
             this.txtShelfNumber.Size = new System.Drawing.Size(104, 26);
             this.txtShelfNumber.TabIndex = 6;
             // 
-            // btnBookUpdate
+            // btnUpdateBook
             // 
-            this.btnBookUpdate.Location = new System.Drawing.Point(287, 461);
-            this.btnBookUpdate.Name = "btnBookUpdate";
-            this.btnBookUpdate.Size = new System.Drawing.Size(92, 39);
-            this.btnBookUpdate.TabIndex = 9;
-            this.btnBookUpdate.Text = "Update";
-            this.btnBookUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdateBook.Location = new System.Drawing.Point(287, 461);
+            this.btnUpdateBook.Name = "btnUpdateBook";
+            this.btnUpdateBook.Size = new System.Drawing.Size(92, 39);
+            this.btnUpdateBook.TabIndex = 9;
+            this.btnUpdateBook.Text = "Update";
+            this.btnUpdateBook.UseVisualStyleBackColor = true;
             // 
-            // btnBookRemove
+            // btnRemoveBook
             // 
-            this.btnBookRemove.Location = new System.Drawing.Point(520, 461);
-            this.btnBookRemove.Name = "btnBookRemove";
-            this.btnBookRemove.Size = new System.Drawing.Size(92, 39);
-            this.btnBookRemove.TabIndex = 9;
-            this.btnBookRemove.Text = "Remove";
-            this.btnBookRemove.UseVisualStyleBackColor = true;
+            this.btnRemoveBook.Location = new System.Drawing.Point(520, 461);
+            this.btnRemoveBook.Name = "btnRemoveBook";
+            this.btnRemoveBook.Size = new System.Drawing.Size(92, 39);
+            this.btnRemoveBook.TabIndex = 9;
+            this.btnRemoveBook.Text = "Remove";
+            this.btnRemoveBook.UseVisualStyleBackColor = true;
             // 
             // BookDetailsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.ClientSize = new System.Drawing.Size(1066, 576);
-            this.Controls.Add(this.btnBookRemove);
-            this.Controls.Add(this.btnBookUpdate);
+            this.Controls.Add(this.btnRemoveBook);
+            this.Controls.Add(this.btnUpdateBook);
             this.Controls.Add(this.lblGenreID);
             this.Controls.Add(this.lblAuthor);
             this.Controls.Add(this.lblBookTitle);
@@ -224,8 +224,8 @@
             this.Controls.SetChildIndex(this.lblBookTitle, 0);
             this.Controls.SetChildIndex(this.lblAuthor, 0);
             this.Controls.SetChildIndex(this.lblGenreID, 0);
-            this.Controls.SetChildIndex(this.btnBookUpdate, 0);
-            this.Controls.SetChildIndex(this.btnBookRemove, 0);
+            this.Controls.SetChildIndex(this.btnUpdateBook, 0);
+            this.Controls.SetChildIndex(this.btnRemoveBook, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -248,7 +248,7 @@
         private System.Windows.Forms.TextBox txtTotalStock;
         private System.Windows.Forms.TextBox txtNumberLeft;
         private System.Windows.Forms.TextBox txtShelfNumber;
-        private System.Windows.Forms.Button btnBookUpdate;
-        private System.Windows.Forms.Button btnBookRemove;
+        private System.Windows.Forms.Button btnUpdateBook;
+        private System.Windows.Forms.Button btnRemoveBook;
     }
 }
