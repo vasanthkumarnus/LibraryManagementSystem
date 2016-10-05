@@ -64,6 +64,7 @@
             this.btnCreateBook.TabIndex = 25;
             this.btnCreateBook.Text = "Add";
             this.btnCreateBook.UseVisualStyleBackColor = true;
+            this.btnCreateBook.Click += new System.EventHandler(this.btnCreateBook_Click);
             // 
             // lblGenreID
             // 

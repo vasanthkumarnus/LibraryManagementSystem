@@ -6,13 +6,13 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-////Written by Wang Xinwei
+//Written by Wang Xinwei
 
 namespace SA43Team05B.View
 {
-    public partial class CreateBookForm : SA43Team05B.MainMenu
+    public partial class CreateMemberForm : SA43Team05B.MainMenu
     {
-        public CreateBookForm()
+        public CreateMemberForm()
         {
             InitializeComponent();
         }

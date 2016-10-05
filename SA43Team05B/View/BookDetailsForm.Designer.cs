@@ -177,6 +177,7 @@
             this.btnUpdateBook.TabIndex = 9;
             this.btnUpdateBook.Text = "Update";
             this.btnUpdateBook.UseVisualStyleBackColor = true;
+            this.btnUpdateBook.Click += new System.EventHandler(this.btnUpdateBook_Click);
             // 
             // btnRemoveBook
             // 
@@ -186,6 +187,7 @@
             this.btnRemoveBook.TabIndex = 9;
             this.btnRemoveBook.Text = "Remove";
             this.btnRemoveBook.UseVisualStyleBackColor = true;
+            this.btnRemoveBook.Click += new System.EventHandler(this.btnRemoveBook_Click);
             // 
             // BookDetailsForm
             // 
