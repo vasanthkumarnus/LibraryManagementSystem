@@ -124,6 +124,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="View\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EntityDeploy Include="Model\LMSModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>LMSModel.Designer.cs</LastGenOutput>
