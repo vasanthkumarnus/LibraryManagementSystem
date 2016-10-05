@@ -105,24 +105,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="View\Test.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\Test.Designer.cs">
-      <DependentUpon>Test.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\Testcynthia.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\Testcynthia.Designer.cs">
-      <DependentUpon>Testcynthia.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\testqwk.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\testqwk.Designer.cs">
-      <DependentUpon>testqwk.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -136,9 +118,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="View\Testcynthia.resx">
-      <DependentUpon>Testcynthia.cs</DependentUpon>
-    </EmbeddedResource>
     <EntityDeploy Include="Model\LMSModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>LMSModel.Designer.cs</LastGenOutput>
@@ -175,7 +154,9 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="View\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
