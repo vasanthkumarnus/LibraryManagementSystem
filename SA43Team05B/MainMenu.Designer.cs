@@ -66,25 +66,25 @@
             // searchToolStripMenuItem
             // 
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(211, 30);
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(154, 30);
             this.searchToolStripMenuItem.Text = "Search";
             // 
             // createBooksToolStripMenuItem
             // 
             this.createBooksToolStripMenuItem.Name = "createBooksToolStripMenuItem";
-            this.createBooksToolStripMenuItem.Size = new System.Drawing.Size(211, 30);
+            this.createBooksToolStripMenuItem.Size = new System.Drawing.Size(154, 30);
             this.createBooksToolStripMenuItem.Text = "Create ";
             // 
             // borrowBooksToolStripMenuItem
             // 
             this.borrowBooksToolStripMenuItem.Name = "borrowBooksToolStripMenuItem";
-            this.borrowBooksToolStripMenuItem.Size = new System.Drawing.Size(211, 30);
+            this.borrowBooksToolStripMenuItem.Size = new System.Drawing.Size(154, 30);
             this.borrowBooksToolStripMenuItem.Text = "Borrow";
             // 
             // returnToolStripMenuItem
             // 
             this.returnToolStripMenuItem.Name = "returnToolStripMenuItem";
-            this.returnToolStripMenuItem.Size = new System.Drawing.Size(211, 30);
+            this.returnToolStripMenuItem.Size = new System.Drawing.Size(154, 30);
             this.returnToolStripMenuItem.Text = "Return";
             // 
             // membersToolStripMenuItem
@@ -99,13 +99,13 @@
             // searchToolStripMenuItem1
             // 
             this.searchToolStripMenuItem1.Name = "searchToolStripMenuItem1";
-            this.searchToolStripMenuItem1.Size = new System.Drawing.Size(211, 30);
+            this.searchToolStripMenuItem1.Size = new System.Drawing.Size(149, 30);
             this.searchToolStripMenuItem1.Text = "Search";
             // 
             // createToolStripMenuItem
             // 
             this.createToolStripMenuItem.Name = "createToolStripMenuItem";
-            this.createToolStripMenuItem.Size = new System.Drawing.Size(211, 30);
+            this.createToolStripMenuItem.Size = new System.Drawing.Size(149, 30);
             this.createToolStripMenuItem.Text = "Create";
             // 
             // MainMenu
