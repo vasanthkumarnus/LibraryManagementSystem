@@ -115,6 +115,18 @@
     <Compile Include="View\BookDetailsForm.Designer.cs">
       <DependentUpon>BookDetailsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\CreateBookForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CreateBookForm.Designer.cs">
+      <DependentUpon>CreateBookForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CreateMemberForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CreateMemberForm.Designer.cs">
+      <DependentUpon>CreateMemberForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +146,15 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="View\BookDetailsForm.resx">
+      <DependentUpon>BookDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CreateBookForm.resx">
+      <DependentUpon>CreateBookForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CreateMemberForm.resx">
+      <DependentUpon>CreateMemberForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
