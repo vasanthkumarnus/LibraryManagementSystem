@@ -12,9 +12,20 @@ namespace SA43Team05B.View
 {
     public partial class BookDetailsForm : Form
     {
+        
         public BookDetailsForm()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void BookDetailsForm_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }
