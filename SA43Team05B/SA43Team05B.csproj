@@ -130,8 +130,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="View\BookDetailsForm.resx">
-      <DependentUpon>BookDetailsForm.cs</DependentUpon>
+    <EmbeddedResource Include="View\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EntityDeploy Include="Model\LMSModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
